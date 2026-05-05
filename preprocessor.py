@@ -1,9 +1,8 @@
 import pandas as pd
 
 
-
 def preprocess(df, region_df):
-    # filtering dataframes
+    # filtering for Summer Olympics only
     df = df[df['Season'] == 'Summer']
     df = df.merge(region_df, on="NOC", how='left')
     # dropping duplicates
