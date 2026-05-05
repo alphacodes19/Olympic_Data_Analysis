@@ -2,7 +2,7 @@
 
 Olympics Data Analysis Web Application using Streamlit. For development, I will be using Python and Pandas. For plotting, I will be using Seaborn and Plotly libraries.  
 
-Link: [(https://olympicdataanalysis-eejfy2x8mpq7x7fpxocqf4.streamlit.app/]
+Link: [https://olympicdataanalysis-eejfy2x8mpq7x7fpxocqf4.streamlit.app/]
 * * *
 
 ## Steps To Run This Project:
