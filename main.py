@@ -9,8 +9,8 @@ import plotly.graph_objects as go
 
 
 
-df = pd.read_csv('./olympic-history/athlete_events.csv')
-region_df = pd.read_csv('./olympic-history/noc_regions.csv')
+df = pd.read_csv('athlete_events.csv')
+region_df = pd.read_csv('noc_regions.csv')
 
 df = preprocessor.preprocess(df, region_df)
 
